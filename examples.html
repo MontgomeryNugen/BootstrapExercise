@@ -9,11 +9,14 @@
         h1 {
         text-align: center;
         }
+        .test {
+            padding-left: 80px;
+        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +32,21 @@
             </div>
         </div>
     </nav>
-    <h1>Examples</h1>
+    <h1>Examples of COBOL Usage</h1>
+    <br>
+<div class="test">
+    <p>IDENTIFICATION DIVISION.
+        <br>
+            PROGRAM-ID. HELLO-WORLD.
+            <br>
+            * simple hello world program
+            <br>
+            PROCEDURE DIVISION.
+            <br>
+                DISPLAY 'Hello world!'.
+                <br>
+                STOP RUN.</p>
+</div>
 </body>
 
 </html>
